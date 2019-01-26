@@ -24,7 +24,4 @@ def index_client(path):
     return send_file(entry)
 
 
-
-
-
 app.run(port=5000)
